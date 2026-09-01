@@ -28,9 +28,9 @@ The original working directories are not required. All scripts resolve files rel
 
 The original analysis environment used Python 3.9.25. Create an isolated environment and install the pinned package versions:
 
-```bash
+```powershell
 python -m venv .venv
-.venv\Scripts\activate
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
