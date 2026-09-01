@@ -1,0 +1,15 @@
+numpy==1.26.4
+pandas==1.5.3
+scipy==1.13.1
+scikit-learn==1.6.1
+joblib==1.5.2
+openpyxl==3.1.5
+matplotlib==3.9.2
+seaborn==0.13.2
+xgboost==2.1.4
+lightgbm==4.6.0
+catboost==1.2.8
+shap==0.47.2
+dowhy==0.13
+networkx==2.8.8
+pyecharts==2.0.8

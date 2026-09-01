@@ -1,0 +1,40 @@
+{
+  "chosen_run": 4,
+  "random_state": 3,
+  "split": {
+    "train": 0.7,
+    "test": 0.3
+  },
+  "cv": 10,
+  "metrics": {
+    "test_R2": 0.6426228979094615,
+    "test_MAE": 0.47564945546490695,
+    "test_RMSE": 0.6918622651512815
+  },
+  "best_params": {
+    "n_estimators": 600,
+    "learning_rate": 0.01,
+    "max_depth": 7,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "selected_features": [
+    "Water_Temperature",
+    "Depth",
+    "TN_re",
+    "Ratio_CN_inout",
+    "NH4_re",
+    "NH4_rl",
+    "HRT",
+    "NH4_in",
+    "TN_in",
+    "HLR",
+    "COD_re",
+    "COD_in"
+  ],
+  "target": "CH4",
+  "clip_quantiles": {
+    "low_0.01": 0.10139953009676042,
+    "high_0.99": 5.40191725051757
+  }
+}

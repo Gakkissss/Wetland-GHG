@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+*.inspect.ndjson
+outputs/figures/
+outputs/model_comparison/CH4/
+outputs/model_comparison/N2O/
+_INTERNAL_REVIEW.md
+

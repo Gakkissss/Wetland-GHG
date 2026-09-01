@@ -1,0 +1,36 @@
+{
+  "chosen_run": 275,
+  "random_state": 274,
+  "split": {
+    "train": 0.7,
+    "test": 0.3
+  },
+  "cv": 10,
+  "metrics": {
+    "test_R2": 0.6390980782016629,
+    "test_MAE": 0.34654094488412884,
+    "test_RMSE": 0.4769191146042083
+  },
+  "best_params": {
+    "n_estimators": 900,
+    "max_depth": 30,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "selected_features": [
+    "TN_re",
+    "CN_in",
+    "NH4_re",
+    "Depth",
+    "NH4_in",
+    "NO3_re",
+    "TN_in",
+    "NO3_in"
+  ],
+  "target": "N2O",
+  "clip_quantiles": {
+    "low_0.01": 0.08634453746471552,
+    "high_0.99": 4.263611784723947
+  }
+}
